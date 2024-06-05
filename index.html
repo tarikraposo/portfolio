@@ -32,17 +32,18 @@
                 <p>Olá,<n></p></n>
                 <p>Eu sou o <span style="font-weight: 900;">Tarik Raposo</span> </p>
                 <p>Um desenvolvedor Front End que reside em Brasília.</p>
-                <button class="btn">
+                <button id="more" class="btn">
                     Saiba mais
                 </button>
             </div>
-            <div class="info-bottom">
-                <img src="./src/assets/img/orange-avatar200x200.png" alt="">
-            </div>
+            <model-viewer src="/src/assets/img/avatar.glb" camera-controls touch-action="pan-y" size="10">
+                
+            </model-viewer>
         </div>
     </div>
     
-    <!-- Scipt -->
+    <!-- Script -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <script src="./src/js/index.js"></script>
 </body>
 </html>
