@@ -6,21 +6,21 @@
   padding: 2rem 0.5rem;
   margin: 20px;
   background: #924848;
-  color: #F6EDDB;
+  color: #f6eddb;
   filter: blur();
   border-radius: 1em;
   overflow: scroll;
 }
-.left-icon{
-    color: white;
-    position: absolute;
-    top: 18px;
-    left: 18px;
-    padding: 8px;
-    border-radius: .5em;
-    &:hover{
-        background-color: #6a4227;   
-    }
+.left-icon {
+  color: white;
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  padding: 8px;
+  border-radius: 0.5em;
+  &:hover {
+    background-color: #6a4227;
+  }
 }
 .top {
   max-width: 80%;
@@ -42,17 +42,17 @@ section img {
   display: flex;
   flex-direction: column;
   gap: 12px;
-
 }
 
-.bottom button {
+.bottom a {
+  text-decoration: none;
   color: #2b0808;
   font-weight: bolder;
   border: none;
-  background-color: #F6EDDB;
+  background-color: #f6eddb;
   border-radius: 0.5rem;
   padding: 8px 14px;
-  margin: 1em 0 .5em 0;
+  margin: 1em 0 0.5em 0;
   cursor: pointer;
 }
 .bottom h1 {
@@ -74,7 +74,5 @@ section img {
 }
 
 .projetos p {
-  font-size: 12px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  font-size: 16px;
 }
